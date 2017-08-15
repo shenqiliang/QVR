@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E111F3D1E96698700E521EA /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E111F3B1E96698700E521EA /* Matrix.cpp */; };
+		4E42CD6D1EB73C3500559646 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4E42CD6C1EB73C3500559646 /* Shader.fsh */; };
+		4E42CD6F1EB73C4D00559646 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4E42CD6E1EB73C4D00559646 /* Shader.vsh */; };
+		4E42CD751EB7649800559646 /* 3dvr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E42CD741EB7649800559646 /* 3dvr.mp4 */; };
+		4E83BA771E8BB0F700DC1B22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83BA761E8BB0F700DC1B22 /* main.m */; };
+		4E83BA7A1E8BB0F700DC1B22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83BA791E8BB0F700DC1B22 /* AppDelegate.m */; };
+		4E83BA7D1E8BB0F700DC1B22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E83BA7C1E8BB0F700DC1B22 /* ViewController.m */; };
+		4E83BA821E8BB0F700DC1B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E83BA811E8BB0F700DC1B22 /* Assets.xcassets */; };
+		4E83BA851E8BB0F700DC1B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E83BA831E8BB0F700DC1B22 /* LaunchScreen.storyboard */; };
+		4E83BA8E1E8BB11D00DC1B22 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83BA8D1E8BB11D00DC1B22 /* GLKit.framework */; };
+		4E83BAB71E8BB32000DC1B22 /* QVRViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E83BAB61E8BB32000DC1B22 /* QVRViewController.mm */; };
+		4E83BABB1E8BB5E900DC1B22 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E83BAB91E8BB5E900DC1B22 /* Engine.cpp */; };
+		4EA2FA681E8D28C300C685A8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA2FA671E8D28C300C685A8 /* CoreMotion.framework */; };
+		4EA2FA6A1E8D32E800C685A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA2FA691E8D32E800C685A8 /* AVFoundation.framework */; };
+		4EA2FAB11E8E122600C685A8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA2FAB01E8E122600C685A8 /* CoreMedia.framework */; };
+		4EA2FAB21E8E146700C685A8 /* demo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4E83BAB81E8BB34200DC1B22 /* demo.m4v */; };
+		4EA37ECF1ED987EC00743DFF /* ShaderFragmentOffset.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4EA37ECE1ED987EC00743DFF /* ShaderFragmentOffset.fsh */; };
+		4EA37ED11ED9888900743DFF /* ShaderFragmentOffset.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4EA37ED01ED9888900743DFF /* ShaderFragmentOffset.vsh */; };
+		4EB44EE11ECC7C3F0055E2C2 /* QVRAdjustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB44EE01ECC7C3F0055E2C2 /* QVRAdjustManager.swift */; };
+		4EE1060D1EDECC480075DE79 /* ShaderMesh.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1060C1EDECC480075DE79 /* ShaderMesh.fsh */; };
+		4EE1060F1EDECC740075DE79 /* ShaderMesh.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1060E1EDECC740075DE79 /* ShaderMesh.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E111F3B1E96698700E521EA /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		4E111F3C1E96698700E521EA /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		4E42CD6C1EB73C3500559646 /* Shader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = Shader.fsh; sourceTree = "<group>"; };
+		4E42CD6E1EB73C4D00559646 /* Shader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = Shader.vsh; sourceTree = "<group>"; };
+		4E42CD741EB7649800559646 /* 3dvr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3dvr.mp4; sourceTree = "<group>"; };
+		4E83BA721E8BB0F700DC1B22 /* QVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E83BA761E8BB0F700DC1B22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E83BA781E8BB0F700DC1B22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E83BA791E8BB0F700DC1B22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E83BA7B1E8BB0F700DC1B22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E83BA7C1E8BB0F700DC1B22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E83BA811E8BB0F700DC1B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E83BA841E8BB0F700DC1B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E83BA861E8BB0F700DC1B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E83BA8D1E8BB11D00DC1B22 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4E83BAB51E8BB32000DC1B22 /* QVRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVRViewController.h; sourceTree = "<group>"; };
+		4E83BAB61E8BB32000DC1B22 /* QVRViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QVRViewController.mm; sourceTree = "<group>"; };
+		4E83BAB81E8BB34200DC1B22 /* demo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4v; sourceTree = "<group>"; };
+		4E83BAB91E8BB5E900DC1B22 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		4E83BABA1E8BB5E900DC1B22 /* Engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Engine.hpp; sourceTree = "<group>"; };
+		4EA2FA671E8D28C300C685A8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4EA2FA691E8D32E800C685A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EA2FAB01E8E122600C685A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4EA37ECE1ED987EC00743DFF /* ShaderFragmentOffset.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = ShaderFragmentOffset.fsh; sourceTree = "<group>"; };
+		4EA37ED01ED9888900743DFF /* ShaderFragmentOffset.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderFragmentOffset.vsh; sourceTree = "<group>"; };
+		4EB44EDF1ECC7C3E0055E2C2 /* QVR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QVR-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EB44EE01ECC7C3F0055E2C2 /* QVRAdjustManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QVRAdjustManager.swift; sourceTree = "<group>"; };
+		4EE1060C1EDECC480075DE79 /* ShaderMesh.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = ShaderMesh.fsh; sourceTree = "<group>"; };
+		4EE1060E1EDECC740075DE79 /* ShaderMesh.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = ShaderMesh.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E83BA6F1E8BB0F700DC1B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA2FAB11E8E122600C685A8 /* CoreMedia.framework in Frameworks */,
+				4EA2FA6A1E8D32E800C685A8 /* AVFoundation.framework in Frameworks */,
+				4EA2FA681E8D28C300C685A8 /* CoreMotion.framework in Frameworks */,
+				4E83BA8E1E8BB11D00DC1B22 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E83BA691E8BB0F700DC1B22 = {
+			isa = PBXGroup;
+			children = (
+				4E83BA741E8BB0F700DC1B22 /* QVR */,
+				4E83BA731E8BB0F700DC1B22 /* Products */,
+				4E83BA8C1E8BB11D00DC1B22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E83BA731E8BB0F700DC1B22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E83BA721E8BB0F700DC1B22 /* QVR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E83BA741E8BB0F700DC1B22 /* QVR */ = {
+			isa = PBXGroup;
+			children = (
+				4E83BAB91E8BB5E900DC1B22 /* Engine.cpp */,
+				4E83BABA1E8BB5E900DC1B22 /* Engine.hpp */,
+				4E111F3B1E96698700E521EA /* Matrix.cpp */,
+				4E111F3C1E96698700E521EA /* Matrix.hpp */,
+				4E83BA781E8BB0F700DC1B22 /* AppDelegate.h */,
+				4E83BA791E8BB0F700DC1B22 /* AppDelegate.m */,
+				4E83BA7B1E8BB0F700DC1B22 /* ViewController.h */,
+				4E83BA7C1E8BB0F700DC1B22 /* ViewController.m */,
+				4E83BAB51E8BB32000DC1B22 /* QVRViewController.h */,
+				4E83BAB61E8BB32000DC1B22 /* QVRViewController.mm */,
+				4E83BA811E8BB0F700DC1B22 /* Assets.xcassets */,
+				4E83BA831E8BB0F700DC1B22 /* LaunchScreen.storyboard */,
+				4E83BA861E8BB0F700DC1B22 /* Info.plist */,
+				4E83BA751E8BB0F700DC1B22 /* Supporting Files */,
+				4E42CD6C1EB73C3500559646 /* Shader.fsh */,
+				4E42CD6E1EB73C4D00559646 /* Shader.vsh */,
+				4EA37ECE1ED987EC00743DFF /* ShaderFragmentOffset.fsh */,
+				4EA37ED01ED9888900743DFF /* ShaderFragmentOffset.vsh */,
+				4EB44EE01ECC7C3F0055E2C2 /* QVRAdjustManager.swift */,
+				4EB44EDF1ECC7C3E0055E2C2 /* QVR-Bridging-Header.h */,
+				4EE1060C1EDECC480075DE79 /* ShaderMesh.fsh */,
+				4EE1060E1EDECC740075DE79 /* ShaderMesh.vsh */,
+			);
+			path = QVR;
+			sourceTree = "<group>";
+		};
+		4E83BA751E8BB0F700DC1B22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E42CD741EB7649800559646 /* 3dvr.mp4 */,
+				4E83BAB81E8BB34200DC1B22 /* demo.m4v */,
+				4E83BA761E8BB0F700DC1B22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E83BA8C1E8BB11D00DC1B22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA2FAB01E8E122600C685A8 /* CoreMedia.framework */,
+				4EA2FA691E8D32E800C685A8 /* AVFoundation.framework */,
+				4EA2FA671E8D28C300C685A8 /* CoreMotion.framework */,
+				4E83BA8D1E8BB11D00DC1B22 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E83BA711E8BB0F700DC1B22 /* QVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E83BA891E8BB0F700DC1B22 /* Build configuration list for PBXNativeTarget "QVR" */;
+			buildPhases = (
+				4E83BA6E1E8BB0F700DC1B22 /* Sources */,
+				4E83BA6F1E8BB0F700DC1B22 /* Frameworks */,
+				4E83BA701E8BB0F700DC1B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QVR;
+			productName = QVR;
+			productReference = 4E83BA721E8BB0F700DC1B22 /* QVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E83BA6A1E8BB0F700DC1B22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					4E83BA711E8BB0F700DC1B22 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 23APQPWD85;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E83BA6D1E8BB0F700DC1B22 /* Build configuration list for PBXProject "QVR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E83BA691E8BB0F700DC1B22;
+			productRefGroup = 4E83BA731E8BB0F700DC1B22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E83BA711E8BB0F700DC1B22 /* QVR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E83BA701E8BB0F700DC1B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E42CD6D1EB73C3500559646 /* Shader.fsh in Resources */,
+				4EA37ED11ED9888900743DFF /* ShaderFragmentOffset.vsh in Resources */,
+				4EE1060D1EDECC480075DE79 /* ShaderMesh.fsh in Resources */,
+				4E42CD6F1EB73C4D00559646 /* Shader.vsh in Resources */,
+				4EA37ECF1ED987EC00743DFF /* ShaderFragmentOffset.fsh in Resources */,
+				4EE1060F1EDECC740075DE79 /* ShaderMesh.vsh in Resources */,
+				4E42CD751EB7649800559646 /* 3dvr.mp4 in Resources */,
+				4E83BA851E8BB0F700DC1B22 /* LaunchScreen.storyboard in Resources */,
+				4EA2FAB21E8E146700C685A8 /* demo.m4v in Resources */,
+				4E83BA821E8BB0F700DC1B22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E83BA6E1E8BB0F700DC1B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E111F3D1E96698700E521EA /* Matrix.cpp in Sources */,
+				4E83BA7D1E8BB0F700DC1B22 /* ViewController.m in Sources */,
+				4E83BA7A1E8BB0F700DC1B22 /* AppDelegate.m in Sources */,
+				4E83BABB1E8BB5E900DC1B22 /* Engine.cpp in Sources */,
+				4E83BAB71E8BB32000DC1B22 /* QVRViewController.mm in Sources */,
+				4E83BA771E8BB0F700DC1B22 /* main.m in Sources */,
+				4EB44EE11ECC7C3F0055E2C2 /* QVRAdjustManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E83BA831E8BB0F700DC1B22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E83BA841E8BB0F700DC1B22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E83BA871E8BB0F700DC1B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E83BA881E8BB0F700DC1B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E83BA8A1E8BB0F700DC1B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 23APQPWD85;
+				INFOPLIST_FILE = QVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QVR.miat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "QVR/QVR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E83BA8B1E8BB0F700DC1B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 23APQPWD85;
+				INFOPLIST_FILE = QVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QVR.miat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "QVR/QVR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E83BA6D1E8BB0F700DC1B22 /* Build configuration list for PBXProject "QVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83BA871E8BB0F700DC1B22 /* Debug */,
+				4E83BA881E8BB0F700DC1B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E83BA891E8BB0F700DC1B22 /* Build configuration list for PBXNativeTarget "QVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E83BA8A1E8BB0F700DC1B22 /* Debug */,
+				4E83BA8B1E8BB0F700DC1B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E83BA6A1E8BB0F700DC1B22 /* Project object */;
+}
